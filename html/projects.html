@@ -40,35 +40,74 @@
     <div class="container">
       <h1>Projects</h1>
       <ul class="projects">
-        <li onmouseover="showItem1()"  class="project">
-          <a href="https://github.com/Andrew95496/hypergraze">HYPERGRAZE©</a>
+        <li class="project">
+          <a onmouseout="showItem1()" href="https://github.com/Andrew95496/hypergraze">HYPERGRAZE©</a>
         </li>
         <p>Web scraper and file creater</p>
-        <li id="item2" class="project">
-          <a href="https://github.com/Andrew95496/katanakoin">KATANAKOIN©</a>
+        <li  class="project">
+          <a onmouseout="showItem2()" href="https://github.com/Andrew95496/katanakoin">KATANAKOIN©</a>
         </li>
         <p>Fiat cryptocurrency</p>
-        <li id="item3" class="project">
-          <a href="https://github.com/Andrew95496/Elixir">Video Sharing Site</a>
+        <li  class="project">
+          <a onmouseout="showItem3()" href="https://github.com/Andrew95496/Elixir">Video Sharing Site</a>
         </li>
         <p>Video sharing website using Django and Postgres</p>
-        <li id="item4" class="project">
-          <a href="https://github.com/Andrew95496/html_css_templates"
+        <li  class="project">
+          <a onmouseout="showItem4()" href="https://github.com/Andrew95496/html_css_templates"
             >Website Templates</a
           >
         </li>
         <p>Website Templates using HTML, CSS, and Javascript</p>
-        <li id="item5" class="project">
-          <a href="https://github.com/Andrew95496/portfolio_website">Portfolio Website</a>
+        <li  class="project">
+          <a onmouseout="showItem5()" href="https://github.com/Andrew95496/portfolio_website">Portfolio Website</a>
         </li>
         <p>This websites repository</p>
       </ul>
+<!-- tilt cards -->
+
+<!-- Hypergraze -->
     </div>
     <div data-tilt data-tilt-scale="1.1" id="graze" class="hidden">
       <h2 class="h2">HYPERGRAZE©</h2>
-      <img class="img" src="https://user-images.githubusercontent.com/70408199/144730128-68824832-0206-48c1-891b-cd9fe43cd7a7.png" alt="HYPERGRAZE©">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ad.</p>
+      <img data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reset="false" class="img" src="https://user-images.githubusercontent.com/70408199/144730128-68824832-0206-48c1-891b-cd9fe43cd7a7.png" alt="HYPERGRAZE©">
+      <p><a target="blank" href="https://hypergraze.netlify.app/">Website</a></p>
+      <p><a target="blank" href="https://github.com/Andrew95496/hypergraze">Source Code</a></p>
     </div>
+
+<!-- Katankoin -->
+    </div>
+    <div data-tilt data-tilt-scale="1.1" id="koin" class="hidden">
+      <h2 class="h2">KATANAKOIN©</h2>
+      <img data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reset="false" style="border-radius: 5%;" class="img" src="https://user-images.githubusercontent.com/70408199/143525332-05d3de5d-0682-43ea-88ca-3524279dfbab.png" alt="HYPERGRAZE©">
+      <p><a target="blank" href="https://github.com/Andrew95496/katanakoin">Source Code</a></p>
+    </div>
+
+<!-- Elixer -->
+    </div>
+    <div data-tilt data-tilt-scale="1.1" id="elixer" class="hidden">
+      <h2 class="h2">Elixer©</h2>
+      <img data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reset="false" style="border-radius: 5%;" class="img" src="https://user-images.githubusercontent.com/70408199/142506188-6e37deb9-0f90-42d3-b883-1170d13ca662.png" alt="HYPERGRAZE©">
+      <p><a target="blank" href="https://github.com/Andrew95496/Elixir">Source Code</a></p>
+    </div>
+
+<!-- Templates -->
+    </div>
+    <div data-tilt data-tilt-scale="1.1" id="temp" class="hidden">
+      <h2 class="h2">Templates</h2>
+      <img data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reset="false" style="border-radius: 5%;" class="img" src="../static-media/portfolio-card.png" alt="HYPERGRAZE©">
+      <p><a target="blank" href="https://github.com/Andrew95496/html_css_templates">Source Code</a></p>
+    </div>
+
+<!-- Portfolio -->
+    </div>
+    <div data-tilt data-tilt-scale="1.1" id="port" class="hidden">
+      <h2 class="h2">Portfolio</h2>
+      <img data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-reset="false" style="border-radius: 5%;" class="img" src="../static-media/Readme/index.png" alt="HYPERGRAZE©">
+      <p><a target="blank" href="https://andrew-leacock.netlify.app/index.html">Website</a></p>
+      <p><a target="blank" href="https://github.com/Andrew95496/portfolio_website">Source Code</a></p>
+    </div>
+
+
 
     <script src="../javascript/front-end/projects.js"></script>
     <script type="text/javascript" src="../javascript/back-end/vanilla-tilt.js"></script>
