@@ -11,3 +11,7 @@
 <img src="./static-media/Readme/skills.png" alt="skills">
 <hr>
 <img src="./static-media/Readme/contact.png" alt="contact">
+<hr>
+
+<p>Image Credits:</p>
+<a href="https://wallpaperaccess.com/retro-sci-fi">Wallpaper
