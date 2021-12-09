@@ -41,8 +41,10 @@
     </ul>
     </div>
     <a target="blank" href="https://youtu.be/44E0cU16y3o">
-    <img class="tv" src="./static-media/tv.png" alt="">
-    <video autoplay loop muted class="screen" src="./static-media/Demo.mp4"></video>
+    <video id="screen" autoplay loop muted class="screen" src="./static-media/Demo.mp4"></video>
+    <img id="game-over" src="https://media0.giphy.com/media/oDxCE80IULQ6Q/giphy.gif?cid=ecf05e47r7lvqutdlx3qlrrh13ye1wgy11vk47m0ru696fb7&rid=giphy.gif&ct=g" alt="">
+    <img onmouseover="changeScreen()" id="tv" title="Youtube Demo" class="tv" src="./static-media/tv.png" alt="">
     </a>
+    <script src="./javascript/front-end/index.js"></script>
 </body>
 </html>

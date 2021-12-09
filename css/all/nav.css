@@ -42,8 +42,20 @@ a{
     text-decoration: none;
 }
 
-audio::-webkit-media-controls-play-button,
-     audio::-webkit-media-controls-panel {
-     background-color: rgba(0, 0, 0, 0);
-     color: rgba(0, 0, 0, 0);
-     }
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+div{
+    margin-top: 15%;
+}

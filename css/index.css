@@ -12,9 +12,6 @@ html{
     height: 100%;
 }
 
-div{
-    margin-top: 15%;
-}
 
 .my_name{
     text-align: center;
@@ -33,6 +30,11 @@ div{
 }
 .out-link{
     padding: 0 1rem;
+    transition: ease-in-out 1s;
+}
+
+.out-link:hover{
+    color: rgba(244,189,48,255);
 }
 
 a{
@@ -40,18 +42,31 @@ a{
 }
 
 .tv{
+    z-index: 2;
     position: absolute;
     width: 10rem;
     left: 5rem;
-    top: 40rem;
-    
+    top: 40rem;    
+}
+
+.hide{
+    display: none;
 }
 
 .screen{
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     width: 9rem;
     top: 40.7rem;
     left: 5.3rem;
     filter: grayscale(100%);
+}
+
+#game-over{
+    z-index: 0;
+    position: absolute;
+    height: 5rem;
+    width: 7rem;
+    top: 40.7rem;
+    left: 5.5rem;
 }
