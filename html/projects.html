@@ -21,7 +21,7 @@
   </head>
   <body>
     <nav class="nav">
-        <a href="../index.html"><i class="fas fa-meteor"></i></a>
+      <a href="../index.html"><i class="fas fa-meteor"></i></a>
       <ul class="links">
         <a href="../html/bio.html">
           <li>Bio</li>
@@ -38,20 +38,39 @@
       </ul>
     </nav>
     <div class="container">
-        <h1>Projects</h1>
-        <ul class="projects">
-            <li class="project"><a href="https://github.com/Andrew95496/hypergraze">HYPERGRAZE©</a></li>
-            <p>Web scraper and file creater</p>
-            <li class="project"><a href="https://github.com/Andrew95496/katanakoin">KATANAKOIN©</a></li>
-            <p>Fiat cryptocurrency</p>
-            <li class="project"><a href="https://github.com/Andrew95496/Elixir">Video Sharing Site</a></li>
-            <p>Video sharing website using Django and Postgres </p>
-            <li class="project"><a href="https://github.com/Andrew95496/html_css_templates">Website Templates</a></li>
-            <p>Website Templates using HTML, CSS, and Javascript</p>
-            <li class="project"><a href="https://github.com/Andrew95496/portfolio_website">Portfolio Website</a></li>
-            <p>This websites repository</p>
-        </ul>
+      <h1>Projects</h1>
+      <ul class="projects">
+        <li onmouseover="showItem1()"  class="project">
+          <a href="https://github.com/Andrew95496/hypergraze">HYPERGRAZE©</a>
+        </li>
+        <p>Web scraper and file creater</p>
+        <li id="item2" class="project">
+          <a href="https://github.com/Andrew95496/katanakoin">KATANAKOIN©</a>
+        </li>
+        <p>Fiat cryptocurrency</p>
+        <li id="item3" class="project">
+          <a href="https://github.com/Andrew95496/Elixir">Video Sharing Site</a>
+        </li>
+        <p>Video sharing website using Django and Postgres</p>
+        <li id="item4" class="project">
+          <a href="https://github.com/Andrew95496/html_css_templates"
+            >Website Templates</a
+          >
+        </li>
+        <p>Website Templates using HTML, CSS, and Javascript</p>
+        <li id="item5" class="project">
+          <a href="https://github.com/Andrew95496/portfolio_website">Portfolio Website</a>
+        </li>
+        <p>This websites repository</p>
+      </ul>
     </div>
-    
+    <div data-tilt data-tilt-scale="1.1" id="graze" class="hidden">
+      <h2 class="h2">HYPERGRAZE©</h2>
+      <img class="img" src="https://user-images.githubusercontent.com/70408199/144730128-68824832-0206-48c1-891b-cd9fe43cd7a7.png" alt="HYPERGRAZE©">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ad.</p>
+    </div>
+
+    <script src="../javascript/front-end/projects.js"></script>
+    <script type="text/javascript" src="../javascript/back-end/vanilla-tilt.js"></script>
   </body>
 </html>
