@@ -1,0 +1,52 @@
+html{
+    background-image: url(../static-media/bg-skills.jpg) !important ;
+    overflow: hidden;
+    font-family: 'Major Mono Display', monospace !important;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+
+
+/* NAV */
+.fas:hover, .fab:hover{
+    color: rgb(47, 99, 177);
+    transition: ease-in-out 1s;
+
+}
+
+
+.links a li:hover{
+    color: rgb(62, 130, 219);
+    cursor: pointer;
+}
+
+
+.container{
+    font-family: monospace;
+    margin: 5rem 15rem;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem 5rem;
+}

@@ -1,0 +1,64 @@
+html{
+    background-image: url(../static-media/bg-contact.jpg) !important ;
+    overflow: hidden;
+    font-family: 'Major Mono Display', monospace !important;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+
+
+/* NAV */
+
+.fas:hover, .fab:hover{
+    color: rgba(255, 255, 255, 0.171);
+    transition: ease-in-out 1s;
+
+}
+
+.links a li:hover{
+    color: rgba(185, 121, 121, 0.349);
+    cursor: pointer;
+}
+
+
+
+
+
+/* Content */
+
+.container{
+    font-family: monospace;
+    margin: 5rem 15rem;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+}
+
+td a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: ease-in-out 1s;
+    margin-bottom: 5rem;
+}
+
+td a:hover{
+    color: rgb(189, 189, 189);
+}

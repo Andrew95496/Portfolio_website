@@ -1,0 +1,29 @@
+html{
+    background-image: url(../static-media/bg-index.jpg) !important ;
+    overflow: hidden;
+    font-family: 'Major Mono Display', monospace !important;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+div{
+    margin-top: 15%;
+}
+
+.my_name{
+    text-align: center;
+    font-size: 8rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.out-links{
+    display: flex;
+    justify-content: center;
+}
