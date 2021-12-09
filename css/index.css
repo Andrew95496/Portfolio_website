@@ -38,3 +38,20 @@ div{
 a{
     color: rgb(255, 255, 255);
 }
+
+.tv{
+    position: absolute;
+    width: 10rem;
+    left: 5rem;
+    top: 40rem;
+    
+}
+
+.screen{
+    z-index: -1;
+    position: absolute;
+    width: 9rem;
+    top: 40.7rem;
+    left: 5.3rem;
+    filter: grayscale(100%);
+}
