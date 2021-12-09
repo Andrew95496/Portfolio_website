@@ -1,0 +1,12 @@
+        <!-- <table>
+          <tr>
+            <td><img src="../static-media/skills/python.png" alt="python"></td>
+            <td><img src="../static-media/skills/javascript.png" alt="javascript"></td>
+            <td><img src="../static-media/skills/postgresql.png" alt="postgresql"></td>
+          </tr>
+          <tr>
+            <td><img src="../static-media/skills/bootstrap.svg" alt="bootstrap"></td>
+            <td><img src="../static-media/skills/html.png.crdownload" alt="html"></td>
+            <td><img src="../static-media/skills/css.png" alt="css"></td>
+          </tr>
+        </table> -->

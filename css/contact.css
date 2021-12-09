@@ -45,20 +45,22 @@ h1{
     margin-bottom: 2rem;
 }
 
-table{
+
+.contacts {
     display: flex;
-    justify-content: center;
-    margin-left: 10rem;
-    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
 }
 
-td a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+.contacts li{
+    margin-bottom: 2rem;
+}
+
+.contacts li a{
+    color:rgb(255, 255, 255);
     transition: ease-in-out 1s;
-    margin-bottom: 5rem;
 }
 
-td a:hover{
-    color: rgb(189, 189, 189);
+.contacts li a:hover{
+    color:rgb(136, 136, 136);
 }
