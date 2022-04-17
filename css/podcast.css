@@ -1,0 +1,58 @@
+html{
+    background-image: url(../static-media/1224100.jpg) !important ;
+    overflow: hidden;
+    font-family: 'Major Mono Display', monospace !important;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+/* NAV */
+.fas:hover, .fab:hover{
+    color: rgb(176, 128, 185);
+    transition: ease-in-out 1s;
+
+}
+
+
+.links a li:hover{
+    color: rgb(110, 161, 228);
+    cursor: pointer;
+}
+
+.center{
+    font-family: monospace;
+    display: block;
+    justify-content: center;
+    margin: 5rem 15rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+}
+
+.item{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+img{
+    height: 25rem;
+}
